@@ -27,7 +27,7 @@ My prior research also includes pre-training and fine-tuning language models on 
 - **[02/2024]** Release the **Qwen1.5** series foundation models [[blog]](https://qwenlm.github.io/blog/qwen1.5/)
 - **[09/2023]** Release the **Qwen** series foundation models [[paper]](https://arxiv.org/abs/2309.16609) [[blog]](https://qwenlm.github.io/blog/qwen/) and the benchmark for Code Interpreter [[code]](https://github.com/QwenLM/Qwen-Agent/tree/main/benchmark/code_interpreter)
 - **[05/2023]** 1 papers is accepted to **ACL 2023**
-- **[03/2023]** Release the cross-lingual pre-trained model **VECO 2.0** and rank 1st on Google [XTREME](https://sites.research.google/xtreme/) leaderboard. [[paper]](https://arxiv.org/abs/2304.08205)
+- **[03/2023]** Release the cross-lingual pre-trained model **VECO 2.0** and **rank 1st** on Google [XTREME](https://sites.research.google/xtreme/) leaderboard. [[paper]](https://arxiv.org/abs/2304.08205)
 - **[10/2022]** 2 papers are accepted to **EMNLP 2022**
 - **[12/2020]** 1 paper is accepted to **AAAI 2021**
 
@@ -54,7 +54,7 @@ My prior research also includes pre-training and fine-tuning language models on 
   *ACL 2025 Findings*  
 
 - **Disentangling Reasoning Tokens and Boilerplate Tokens for Language Model Fine-tuning**  
-  Z Ye, **Z Zhang**, Y Zhang, J Ma, J Lin, **F Feng**  
+  Z Ye, **Z Zhang**, Y Zhang, J Ma, J Lin, F Feng  
   *ACL 2025 Findings*  
 
 - **ProcessBench: Identifying Process Errors in Mathematical Reasoning**  
