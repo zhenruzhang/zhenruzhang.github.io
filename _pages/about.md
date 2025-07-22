@@ -11,6 +11,8 @@ I am a researcher in the Qwen Team, Alibaba Group. My current interests are focu
 
 My prior research also includes pre-training and fine-tuning language models on NLU tasks, as well as weakly supervised learning in machine learning, which provide support for my subsequent work in robust language model development and data-efficient training.
 
+Please feel free to contact me (zhangzhenru.zzr@alibaba-inc.com) if you are interested in the Qwen Team or my work.
+
 ## News
 
 - **[05/2025]** 3 papers are accepted to **ACL 2025**
@@ -31,7 +33,7 @@ My prior research also includes pre-training and fine-tuning language models on 
 - **[10/2022]** 2 papers are accepted to **EMNLP 2022**
 - **[12/2020]** 1 paper is accepted to **AAAI 2021**
 
-## Selected Publications (Full publications on [Google Scholar](https://scholar.google.com/citations?user=scujDKkAAAAJ))
+## Selected Publications ( Full publications on [Google Scholar](https://scholar.google.com/citations?user=scujDKkAAAAJ) )
 
 - **Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning**  
   S Wang, L Yu, C Gao, C Zheng, S Liu, R Lu, K Dang, X Chen, J Yang, ...  
@@ -96,9 +98,3 @@ My prior research also includes pre-training and fine-tuning language models on 
 - **Exploiting Unlabeled Data via Partial Label Assignment for Multi-Class Semi-Supervised Learning**  
   **ZR Zhang**, QW Zhang, Y Cao, ML Zhang  
   *AAAI 2021*  
-
-
-## Work Experiences
-
-- Jul 2021 – Present. Researcher. Alibaba Group
-- Jul 2020 – Mar 2021. Research Intern. Tencent
