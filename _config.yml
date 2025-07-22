@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhenru Zhang / Zhen-Ru Zhang"
+title                    : "Zhenru Zhang"
 title_separator          : "-"
 name                     : &name "Zhenru Zhang"
 description              : &description "Researcher from Qwen Team, Alibaba Group"
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
