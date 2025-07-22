@@ -1,56 +1,104 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Zhenru Zhang / Zhen-Ru Zhang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a researcher in the Qwen Team, Alibaba Group. My current interests are focusing on enhancing the intelligence of Large Language Models, particularly reasoning and agent capabilities. I have contributed to the development and research of the Qwen series models, primarily involving in post-training and agent. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My prior research also includes pre-training and fine-tuning language models on NLU tasks, as well as weakly supervised learning in machine learning, which provide support for my subsequent work in robust language model development and data-efficient training.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## News
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- **[05/2025]** 3 papers are accepted to **ACL 2025**
+- **[05/2025]** Release the paper of modeling world preference **(WorldPM)** [[paper]](https://arxiv.org/abs/2505.10527)
+- **[04/2025]** Release the **Qwen3** series foundation models [[blog]](https://qwenlm.github.io/blog/qwen3/) [[model]](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) [[paper]](https://arxiv.org/abs/2505.09388)
+- **[03/2025]** Release the **QwQ-32B** reasoning model [[blog]](https://qwenlm.github.io/blog/qwq-32b/) [[model]](https://huggingface.co/Qwen/QwQ-32B)
+- **[01/2025]** Release the **Qwen2.5-Math-PRM** models for process supervision in mathematical reasoning [[paper]](https://https://arxiv.org/abs/2501.07301) [[model]](https://huggingface.co/Qwen/Qwen2.5-Math-PRM-72B)
+- **[12/2024]** Release the **ProcessBench** benchmark for process supervision in mathematical reasoning [[paper]](https://https://arxiv.org/abs/2412.06559) [[repo]](https://github.com/QwenLM/ProcessBench) [[data]](https://huggingface.co/datasets/Qwen/ProcessBench)
+- **[11/2024]** Release the **QwQ-32B-Preview** reasoning model [[blog]](https://qwenlm.github.io/blog/qwq-32b-preview/) [[model]](https://huggingface.co/Qwen/QwQ-32B-Preview) [[demo]](https://huggingface.co/spaces/Qwen/QwQ-32B-preview)
+- **[09/2024]** Release the **Qwen2.5** series foundation models [[paper]](https://arxiv.org/abs/2412.15115) [[blog]](https://qwenlm.github.io/blog/qwen2.5/)
+- **[09/2024]** Release the **Qwen2.5-Math** series mathematics-specific models [[paper]](https://arxiv.org/abs/2409.12122) [[blog]](https://qwenlm.github.io/blog/qwen2.5-math/) and **Qwen2.5-Math-RM** reward model [[model]](https://huggingface.co/Qwen/Qwen2.5-Math-RM-72B)
+- **[08/2024]** Release the **Qwen2-Math** series mathematics-specific models [[blog]](https://qwenlm.github.io/blog/qwen2-math/) and **Qwen2-Math-RM** reward model [[model]](https://huggingface.co/Qwen/Qwen2-Math-RM-72B)
+- **[06/2024]** Release the **Qwen2** series foundation models [[paper]](https://arxiv.org/abs/2407.10671) [[blog]](https://qwenlm.github.io/blog/qwen2/)
+- **[02/2024]** Release the **Qwen1.5** series foundation models [[blog]](https://qwenlm.github.io/blog/qwen1.5/)
+- **[09/2023]** Release the **Qwen** series foundation models [[paper]](https://arxiv.org/abs/2309.16609) [[blog]](https://qwenlm.github.io/blog/qwen/) and the benchmark for Code Interpreter [[code]](https://github.com/QwenLM/Qwen-Agent/tree/main/benchmark/code_interpreter)
+- **[05/2023]** 1 papers is accepted to **ACL 2023**
+- **[03/2023]** Release the cross-lingual pre-trained model **VECO 2.0** and rank 1st on Google [XTREME](https://sites.research.google/xtreme/) leaderboard. [[paper]](https://arxiv.org/abs/2304.08205)
+- **[10/2022]** 2 papers are accepted to **EMNLP 2022**
+- **[12/2020]** 1 paper is accepted to **AAAI 2021**
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Selected Publications (Full publications on [Google Scholar](https://scholar.google.com/citations?user=scujDKkAAAAJ))
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- **Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning**  
+  S Wang, L Yu, C Gao, C Zheng, S Liu, R Lu, K Dang, X Chen, J Yang, ...  
+  *arXiv preprint arXiv:2506.01939, 2025*  
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **WorldPM: Scaling Human Preference Modeling**  
+  B Wang, R Lin, K Lu, L Yu, **Z Zhang**, F Huang, C Zheng, K Dang, Y Fan, ...  
+  *arXiv preprint arXiv:2505.10527, 2025*  
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Qwen3 Technical Report**  
+  A Yang, A Li, B Yang, B Zhang, B Hui, B Zheng, B Yu, C Gao, C Huang, ...  
+  *arXiv preprint arXiv:2505.09388, 2025*  
+  
+- **Start: Self-taught Reasoner with Tools**  
+  C Li, M Xue, **Z Zhang**, J Yang, B Zhang, X Wang, B Yu, B Hui, J Lin, D Liu  
+  *arXiv preprint arXiv:2503.04625, 2025*  
 
-**Markdown generator**
+- **The Lessons of Developing Process Reward Models in Mathematical Reasoning**  
+  **Z Zhang**, C Zheng, Y Wu, B Zhang, R Lin, B Yu, D Liu, J Zhou, J Lin  
+  *ACL 2025 Findings*  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- **Disentangling Reasoning Tokens and Boilerplate Tokens for Language Model Fine-tuning**  
+  Z Ye, **Z Zhang**, Y Zhang, J Ma, J Lin, **F Feng**  
+  *ACL 2025 Findings*  
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **ProcessBench: Identifying Process Errors in Mathematical Reasoning**  
+  C Zheng, **Z Zhang**, B Zhang, R Lin, K Lu, B Yu, D Liu, J Zhou, J Lin  
+  *ACL 2025*  
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+- **Qwen2.5 Technical Report**  
+  A Yang, B Yang, B Zhang, B Hui, B Zheng, B Yu, C Li, D Liu, F Huang, ...  
+  *arXiv preprint arXiv:2412.15115, 2024*  
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement**  
+  A Yang, B Zhang, B Hui, B Gao, B Yu, C Li, D Liu, J Tu, J Zhou, J Lin, K Lu, ...  
+  *arXiv preprint arXiv:2409.12122, 2024*  
+
+- **Qwen2 Technical Report**  
+  A Yang, B Yang, B Hui, B Zheng, B Yu, C Zhou, C Li, C Li, D Liu, F Huang, ...  
+  *arXiv preprint arXiv:2407.10671, 2024*
+
+- **Qwen Technical Report**  
+  J Bai, S Bai, Y Chu, Z Cui, K Dang, X Deng, Y Fan, W Ge, Y Han, F Huang, ...  
+  *arXiv preprint arXiv:2309.16609, 2023*  
+
+- **Towards Adaptive Prefix Tuning for Parameter-Efficient Language Model Fine-Tuning**  
+  **ZR Zhang**, C Tan, H Xu, C Wang, J Huang, S Huang  
+  *ACL 2023*  
+
+- **Veco 2.0: Cross-lingual Language Model Pre-training with Multi-Granularity Contrastive Learning**  
+  **ZR Zhang**, C Tan, S Huang, F Huang  
+  *arXiv preprint arXiv:2304.08205, 2023*
+
+- **Contrastive Demonstration Tuning for Pre-trained Language Models**  
+  X Liang, N Zhang, S Cheng, **Z Zhang**, C Tan, H Chen  
+  *EMNLP 2022 Findings*  
+
+- **DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population**  
+  N Zhang, X Xu, L Tao, H Yu, H Ye, S Qiao, X Xie, X Chen, Z Li, L Li, ...  
+  *EMNLP 2022 System Demonstrations*  
+
+- **Exploiting Unlabeled Data via Partial Label Assignment for Multi-Class Semi-Supervised Learning**  
+  **ZR Zhang**, QW Zhang, Y Cao, ML Zhang  
+  *AAAI 2021*  
+
+
+## Work Experiences
+
+- Jul 2021 – Present. Researcher. Alibaba Group
+- Jul 2020 – Mar 2021. Research Intern. Tencent
